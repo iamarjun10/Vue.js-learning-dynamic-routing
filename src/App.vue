@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <AppMain/> -->
+  <ProjectMain/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppMain from './components/AppMain.vue'
+import ProjectMain from './components/ProjectMain.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AppMain,
+    ProjectMain
   }
 }
 </script>
